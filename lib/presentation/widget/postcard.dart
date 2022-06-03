@@ -33,7 +33,7 @@ class _PostCardState extends State<PostCard> {
       initialVideoId: widget.mediaLink.toString(),
       flags: const YoutubePlayerFlags(
         autoPlay: true,
-        mute: false,
+        mute: true,
       ),
     );
     _videoMetaData = const YoutubeMetaData();
