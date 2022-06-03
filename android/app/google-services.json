@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195271847713",
+    "project_id": "solocl-a4daa",
+    "storage_bucket": "solocl-a4daa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195271847713:android:20c24ff247a41b3e701860",
+        "android_client_info": {
+          "package_name": "com.example.solocl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195271847713-hjget1tbu8uki3f4abnplp3qcp9vasfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeGwcwlaH4HTfJhSVjTlXzNlIJHJmoGIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195271847713-hjget1tbu8uki3f4abnplp3qcp9vasfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
