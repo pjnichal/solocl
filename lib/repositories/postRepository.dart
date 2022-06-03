@@ -9,7 +9,7 @@ class PostRepository {
     List<Post> finalList = [];
 
     try {
-      final snap = await PostProvider.getPosts(10);
+      final snap = await PostProvider.getPosts(6);
 
       _postSnapshot.addAll(snap.docs);
 
@@ -32,7 +32,7 @@ class PostRepository {
     List<Post> finalList = [];
 
     try {
-      final snap = await PostProvider.getPosts(10,
+      final snap = await PostProvider.getPosts(6,
           startAfter: _postSnapshot.isNotEmpty ? _postSnapshot.last : null);
       _postSnapshot.addAll(snap.docs);
     } catch (e) {
